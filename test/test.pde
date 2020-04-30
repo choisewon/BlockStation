@@ -9,6 +9,7 @@ void setup()
     for (int j = 0; j < as[i].length; j++)
     {
       as[i][j] = 0;
+      print("tnebs");
       
       //fill(0,0,0,10);
       //rect(x,y,as[i][j]*10,as[i][j]*10);
