@@ -10,9 +10,9 @@ void setup()
     {
       as[i][j] = 0;
       
-      fill(0,0,0,10);
-      rect(x,y,as[i][j]*10,as[i][j]*10);
-      x = x + 10;
+      //fill(0,0,0,10);
+      //rect(x,y,as[i][j]*10,as[i][j]*10);
+      //x = x + 10;
     }
     //y = y + 10;
     //x = 0;
