@@ -37,7 +37,18 @@ Block(int[][] array, int[] rgb){
 
 void Rotate()
 {
-  
+  int[][] new_array = {{0, 0, 0, 0, 0},
+                       {0, 0, 0, 0, 0},
+                       {0, 0, 0, 0, 0},
+                       {0, 0, 0, 0, 0},
+                       {0, 0, 0, 0, 0}};
+                       
+  for(int i = 0; i <= this.array.length-1; i++){
+    for(int j = 0; j <= this.array.length-1; j++){
+      new_array[i][j] = this.array[j][array.length-1-i];
+    }
+  }
+  this.array = new_array;
 }
 
 
