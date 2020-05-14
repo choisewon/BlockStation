@@ -9,6 +9,7 @@ Block(int[][] array, int[] rgb){
   this.rgb = rgb;  
 }
 
+//test
 //void BlockArea()
 //{
 //  for(int i = 0; i > this.array.length; i++)
