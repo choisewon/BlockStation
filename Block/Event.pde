@@ -46,6 +46,7 @@ void mouseReleased()
   else if ((mx > 770  && my > 70) && (mx < 970 & my < 420) && Screencount ==1 && helpcount == 0 ) //Gameselection 
   {
 
+    
     background(#CBCBCB);
     
     TenTen();
