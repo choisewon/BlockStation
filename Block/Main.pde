@@ -25,10 +25,10 @@ int sizeX = 1000;
 int sizeY = 500;
 
 boolean stagecount1 = true;
-boolean stagecount2 = false;
-boolean stagecount3 = false;
-boolean stagecount4 = false;
-boolean stagecount5 = false;
+boolean stagecount2 = true;
+boolean stagecount3 = true;
+boolean stagecount4 = true;
+boolean stagecount5 = true;
 
 
 boolean StartmouseXY = false;
