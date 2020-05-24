@@ -13,7 +13,7 @@ class Stage
     stx = 170;
     fill(0);
     textFont(basic,100);
-    text("B.MO Stage",250, 100);
+    text("B.Puzzle Stage",180, 100);
     for(int i = 0; i < 5; i++)
     {
       fill(128);

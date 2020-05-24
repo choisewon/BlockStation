@@ -35,21 +35,21 @@ class Screen
       fill(#D8D6D6);
       rect(50,70,200,350,20);
       fill(0);
-      text("B.mo",110,120);
+      text("B.Puzzle",90,120);
       imo = loadImage("mo.PNG");
       image(imo, 55, 190, 190, 220);
     
       fill(#D8D6D6);
       rect(400,70,200,350,20);
       fill(0);
-      text("B.Te",460,120);
+      text("B.Tetris",450,120);
       ite = loadImage("Te.png");
       image(ite, 405, 190, 190, 220);
     
       fill(#D8D6D6);
       rect(770,70,200,350,20);
       fill(0);
-      text("B.Ten",830,120);
+      text("B.Tentris",810,120);
       iten = loadImage("Ten.png");
       image(iten, 775, 190, 190, 220);
       
