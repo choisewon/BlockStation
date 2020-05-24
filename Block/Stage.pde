@@ -111,7 +111,7 @@ class Stage
     sy = 100;
     textFont(basic,50);
     text("Stage.4",400, 70);
-    iback = loadImage("back.png");
+
     image(iback, 0, 450, 50, 50);
     for (int i = 0; i < 5; i++)
     {
@@ -156,7 +156,7 @@ class Stage
     sy = 100;
     textFont(basic,50);
     text("Stage.5",400, 70);
-    iback = loadImage("back.png");
+
     image(iback, 0, 450, 50, 50);
     for (int i = 0; i < 4; i++)
     {

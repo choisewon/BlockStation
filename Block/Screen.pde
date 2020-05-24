@@ -28,28 +28,31 @@ class Screen
   }
     void Gameselection()
   {
-
-       //stage.stegetest();
-
-    
+      ihelp = loadImage("help.png");
+      
       fill(#D8D6D6);
       rect(50,70,200,350,20);
+      image(ihelp, 200, 95, 30, 30);
       fill(0);
-      text("B.Puzzle",90,120);
+      text("B.Puzzle",70,120);
       imo = loadImage("mo.PNG");
       image(imo, 55, 190, 190, 220);
-    
+      
+     
       fill(#D8D6D6);
       rect(400,70,200,350,20);
+      image(ihelp, 550, 95, 30, 30);
       fill(0);
-      text("B.Tetris",450,120);
+      text("B.Tetris",430,120);
       ite = loadImage("Te.png");
       image(ite, 405, 190, 190, 220);
     
+      
       fill(#D8D6D6);
       rect(770,70,200,350,20);
+      image(ihelp, 920, 95, 30, 30);
       fill(0);
-      text("B.Tentris",810,120);
+      text("B.Tentris",790,120);
       iten = loadImage("Ten.png");
       image(iten, 775, 190, 190, 220);
       

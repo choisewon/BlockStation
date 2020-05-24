@@ -17,7 +17,7 @@
         rect(140+(term*i),575,25,25,10);
       }
     }
-    iback = loadImage("back.png");
+
     image(iback, 0, 555, 50, 50);
    
   }

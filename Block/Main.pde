@@ -8,6 +8,7 @@ PImage imo;
 PImage ite;
 PImage iten;
 PImage iback;
+PImage ihelp;
 
 PFont basic;
 PFont mainText;  
@@ -23,6 +24,7 @@ int tenx;
 int teny = 80;
 int sizeX = 1000;
 int sizeY = 500;
+int helpcount = 0;
 
 boolean stagecount1 = true;
 boolean stagecount2 = true;

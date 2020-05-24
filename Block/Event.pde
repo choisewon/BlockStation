@@ -19,7 +19,22 @@ void mouseReleased()
     background(#CBCBCB);
     screen.Gameselection();
   }
-  else if ((mx > 400  && my > 70) && (mx < 600 & my < 420) && Screencount ==1 ) //Gameselection 
+  else if ((mx > 200  && my > 95) && (mx < 230 & my < 125) && Screencount ==1 && helpcount == 0 ) // help
+  {
+    rect(350,100,300,300);
+    helpcount = 1;
+  }
+  else if ((mx > 550  && my > 95) && (mx < 580 & my < 125) && Screencount ==1 && helpcount == 0 ) // help
+  {
+    rect(350,100,300,300);
+    helpcount = 1;
+  }
+  else if ((mx > 920  && my > 95) && (mx < 950 & my < 125) && Screencount ==1 && helpcount == 0 ) // help
+  {
+    rect(350,100,300,300);
+    helpcount = 1;
+  }
+  else if ((mx > 400  && my > 70) && (mx < 600 & my < 420) && Screencount ==1 && helpcount == 0 ) //Gameselection 
   {
 
     surface.setSize(500,605);
@@ -28,7 +43,7 @@ void mouseReleased()
     tet();
     Screencount = 2;
   }
-  else if ((mx > 770  && my > 70) && (mx < 970 & my < 420) && Screencount ==1 ) //Gameselection 
+  else if ((mx > 770  && my > 70) && (mx < 970 & my < 420) && Screencount ==1 && helpcount == 0 ) //Gameselection 
   {
 
     background(#CBCBCB);
@@ -37,14 +52,8 @@ void mouseReleased()
     
     Screencount = 2;
   }
-  else if ((mx > 770  && my > 70) && (mx < 970 & my < 420) && Screencount ==1 ) // Gameselection 
-  {
-    background(#CBCBCB);
-    TenTen();
-    Screencount = 3;
-  }
   
-  if ((mx > 50 && my > 70) && (mx < 250 & my < 420) && Screencount ==1 ) // Chapter
+  else if ((mx > 50 && my > 70) && (mx < 250 & my < 420) && Screencount ==1 && helpcount == 0) // Gameselection
   {
     background(#CBCBCB);
     stage.Mstage();
@@ -87,19 +96,25 @@ void mouseReleased()
     stage.Mstage();
     stagecount2 = true;
   }
-  else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount ==1  )
+  else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount ==1  && helpcount == 0) // back
   {
     background(#CBCBCB);
     screen.Gamemain();
     Screencount = 0;
   }
-  else  if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount ==2  )
+  else  if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount ==2  ) // back
   {
     background(#CBCBCB);
     textFont(basic,30);
     Screencount = 1;
     screen.Gameselection();
     
+  }
+    else if ((mx > 0  && my > 450) && (mx < 50 & my < 500) && Screencount ==1 && helpcount == 1 )// back
+  {
+    background(#CBCBCB);
+    screen.Gameselection();
+    helpcount = 0; 
   }
 }
 

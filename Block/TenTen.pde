@@ -25,6 +25,5 @@ void TenTen()
        tenx = 10;
        teny = teny + 30;
     }
-   iback = loadImage("back.png");
    image(iback, 0, 450, 50, 50);
   }
