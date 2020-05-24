@@ -1,7 +1,8 @@
 void TenTen()
 {
-  
-  
+  tenx = 10;
+  teny = 80;
+  fill(255);
   textSize(20);
   text("MaxScore. ",150,30);
   text("Score. ",150, 60);
@@ -23,4 +24,6 @@ void TenTen()
        tenx = 10;
        teny = teny + 30;
     }
+   iback = loadImage("back.png");
+   image(iback, 0, 450, 50, 50);
   }

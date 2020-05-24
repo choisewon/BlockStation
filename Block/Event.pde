@@ -24,13 +24,19 @@ void mouseReleased()
 
     surface.setSize(500,605);
     background(#CBCBCB);
-    text("sdsdsds",50,50);
     
     tet();
-    text("qqqqqq",200,50);
     Screencount = 2;
   }
-  
+  else if ((mx > 770  && my > 70) && (mx < 970 & my < 420) && Screencount ==1 ) //Gameselection 
+  {
+
+    background(#CBCBCB);
+    
+    TenTen();
+    
+    Screencount = 2;
+  }
   else if ((mx > 770  && my > 70) && (mx < 970 & my < 420) && Screencount ==1 ) // Gameselection 
   {
     background(#CBCBCB);

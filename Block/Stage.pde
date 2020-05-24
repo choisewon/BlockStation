@@ -37,6 +37,8 @@ class Stage
   {
     stx = 500;
     sy = 100;
+    textFont(basic,50);
+    text("Stage.1",400, 70);
     iback = loadImage("back.png");
     image(iback, 0, 450, 50, 50);
     for (int i = 0; i < 10; i++)
@@ -55,7 +57,9 @@ class Stage
   void Chapter2()
   {
     stx = 500;
-    sy = 100;
+    sy = 150;
+    textFont(basic,50);
+    text("Stage.2",400, 70);
     iback = loadImage("back.png");
     image(iback, 0, 450, 50, 50);
     for (int i = 0; i < 5; i++)
@@ -72,8 +76,10 @@ class Stage
   }
   void Chapter3()
   {
-    stx = 500;
+    stx = 650;
     sy = 100;
+    textFont(basic,50);
+    text("Stage.3",400, 70);
     iback = loadImage("back.png");
     image(iback, 0, 450, 50, 50);
     for (int i = 0; i < 5; i++)
@@ -84,7 +90,7 @@ class Stage
          rect(stx,sy,25,25,10);
          stx = stx + 30;
       }
-      stx = 500;
+      stx = 650;
       sy = sy + 30;
     }
     for (int i = 0; i < 5; i++)
@@ -95,7 +101,7 @@ class Stage
          rect(stx,sy,25,25,10);
          stx = stx + 30;
       }
-      stx = 500;
+      stx = 650;
       sy = sy + 30;
     }
   }
@@ -103,6 +109,8 @@ class Stage
   {
     stx = 500;
     sy = 100;
+    textFont(basic,50);
+    text("Stage.4",400, 70);
     iback = loadImage("back.png");
     image(iback, 0, 450, 50, 50);
     for (int i = 0; i < 5; i++)
@@ -144,8 +152,10 @@ class Stage
   }
   void Chapter5()
   {
-    stx = 500;
+    stx = 700;
     sy = 100;
+    textFont(basic,50);
+    text("Stage.5",400, 70);
     iback = loadImage("back.png");
     image(iback, 0, 450, 50, 50);
     for (int i = 0; i < 4; i++)
@@ -156,10 +166,10 @@ class Stage
          rect(stx,sy,25,25,10);
          stx = stx + 30;
       }
-      stx = 500;
+      stx = 700;
       sy = sy + 30;
     }
-    stx = 380;
+    stx = 580;
     for (int i = 0; i < 4; i++)
     {
       for (int j = 0; j < 12; j++)
@@ -168,10 +178,10 @@ class Stage
          rect(stx,sy,25,25,10);
          stx = stx + 30;
       }
-      stx = 380;
+      stx = 580;
       sy = sy + 30;
     }
-    stx = 500;
+    stx = 700;
     for (int i = 0; i < 4; i++)
     {
       for (int j = 0; j < 4; j++)
@@ -180,7 +190,7 @@ class Stage
          rect(stx,sy,25,25,10);
          stx = stx + 30;
       }
-      stx = 500;
+      stx = 700;
       sy = sy + 30;
     }
   }

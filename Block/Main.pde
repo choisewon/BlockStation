@@ -19,7 +19,7 @@ int snumX;
 int stx;
 int sy;
 int term = 30;
-int tenx = 10;
+int tenx;
 int teny = 80;
 int sizeX = 1000;
 int sizeY = 500;
