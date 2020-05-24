@@ -2,10 +2,11 @@ void TenTen()
 {
   tenx = 10;
   teny = 80;
-  fill(255);
+  fill(0);
   textSize(20);
   text("MaxScore. ",150,30);
   text("Score. ",150, 60);
+  fill(255);
   rect(450,20,120,120,25);
   rect(450,160,90,90,25);
 
