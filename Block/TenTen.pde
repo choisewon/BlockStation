@@ -11,8 +11,8 @@ void TenTen()
   rect(450,160,90,90,25);
 
   stroke(255,255,000);
-  strokeWeight(10);
-  line(320,515,530,515);
+  strokeWeight(9);
+  line(325,373,450,373);
 
 
   stroke(0);
