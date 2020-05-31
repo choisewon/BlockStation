@@ -1,10 +1,10 @@
+class Block{
 int[][] array;
 int[] blockArea = {0,0};
 int[] rgb;
 int x_f = 0;
 int y_f = 0;
-class Block1{
-Block1(int[][] array, int[] rgb){
+Block(int[][] array, int[] rgb){
   this.array = array;
   this.rgb = rgb;  
 }
