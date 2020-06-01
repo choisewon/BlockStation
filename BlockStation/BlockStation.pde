@@ -60,13 +60,13 @@ void now_screen(){
     stage.Mstage();
   }else if(Screencount.equals("stage1")){
     stage.Chapter1();
-  }else if(Screencount.equals("stage1")){
+  }else if(Screencount.equals("stage2")){
     stage.Chapter2();
-  }else if(Screencount.equals("stage1")){
+  }else if(Screencount.equals("stage3")){
     stage.Chapter3();
-  }else if(Screencount.equals("stage1")){
+  }else if(Screencount.equals("stage4")){
     stage.Chapter4();
-  }else if(Screencount.equals("stage1")){
+  }else if(Screencount.equals("stage5")){
     stage.Chapter5();
   }else if(Screencount.equals("tentris")){
     TenTen();
