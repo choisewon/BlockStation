@@ -43,8 +43,6 @@ void mouseReleased()
   }
   else if ((mx > 770  && my > 70) && (mx < 970 & my < 420) && Screencount.equals("select") && helpcount == 0 ) //Gameselection 
   {
-
-    
     background(#CBCBCB);
     Screencount = "tentris";
   }
@@ -80,16 +78,16 @@ void mouseReleased()
       background(#CBCBCB);
       Screencount = "stage5";
   }
-  if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("stage1")  ) // back
-  {
-    background(#CBCBCB);
-    Screencount = "stage";
-    stagecount2 = true;
-  }
-  else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("select")  && helpcount == 0) // back
+  if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("select")  && helpcount == 0) // back
   {
     background(#CBCBCB);
     Screencount = "main";
+  }
+  else if ((mx > 0  && my > 450) && (mx < 50 & my < 500) && Screencount.equals("select") && helpcount == 1 )// helpback
+  {
+    background(#CBCBCB);
+    screen.Gameselection();
+    helpcount = 0; 
   }
   else  if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("stage") ) // back
   {
@@ -98,12 +96,42 @@ void mouseReleased()
     Screencount = "select";
     
   }
-    else if ((mx > 0  && my > 450) && (mx < 50 & my < 500) && Screencount.equals("select") && helpcount == 1 )// back
+  else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("stage1")  ) // back
   {
     background(#CBCBCB);
-    screen.Gameselection();
-    helpcount = 0; 
+    Screencount = "stage";
+    //stagecount2 = true;
   }
+    else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("stage2")  ) // back
+  {
+    background(#CBCBCB);
+    Screencount = "stage";
+  }
+    else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("stage3")  ) // back
+  {
+    background(#CBCBCB);
+    Screencount = "stage";
+  }
+    else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("stage4")  ) // back
+  {
+    background(#CBCBCB);
+    Screencount = "stage";
+  }
+    else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("stage5")  ) // back
+  {
+    background(#CBCBCB);
+    Screencount = "stage";
+  }
+    else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("tetris")  ) // back
+  {
+    background(#CBCBCB);
+    Screencount = "select";
+  }
+    else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("tentris")  ) // back
+  {
+    background(#CBCBCB);
+    Screencount = "select";
+  }  
 }
 
 boolean StartmouseXY()
