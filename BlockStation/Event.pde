@@ -21,28 +21,26 @@ void mouseReleased()
   }
   else if ((mx > 200  && my > 95) && (mx < 230 & my < 125) && Screencount.equals("select") && helpcount == 0 ) // help
   {
-    rect(350,100,300,300);
     helpcount = 1;
   }
   else if ((mx > 550  && my > 95) && (mx < 580 & my < 125) && Screencount.equals("select") && helpcount == 0 ) // help
   {
-    rect(350,100,300,300);
-    helpcount = 1;
+    helpcount = 2;
   }
   else if ((mx > 920  && my > 95) && (mx < 950 & my < 125) && Screencount.equals("select") && helpcount == 0 ) // help
   {
-    rect(350,100,300,300);
-    helpcount = 1;
+    helpcount = 3;
   }
   else if ((mx > 400  && my > 70) && (mx < 600 & my < 420) && Screencount.equals("select") && helpcount == 0 ) //Gameselection 
   {
-    //surface.setSize(500,605);
+    surface.setSize(500,605);
     background(#CBCBCB);
     Screencount = "tetris";
 
   }
   else if ((mx > 770  && my > 70) && (mx < 970 & my < 420) && Screencount.equals("select") && helpcount == 0 ) //Gameselection 
   {
+    surface.setSize(580,440);
     background(#CBCBCB);
     Screencount = "tentris";
   }
@@ -86,7 +84,16 @@ void mouseReleased()
   else if ((mx > 0  && my > 450) && (mx < 50 & my < 500) && Screencount.equals("select") && helpcount == 1 )// helpback
   {
     background(#CBCBCB);
-    screen.Gameselection();
+    helpcount = 0; 
+  }
+  else if ((mx > 0  && my > 450) && (mx < 50 & my < 500) && Screencount.equals("select") && helpcount == 2 )// helpback
+  {
+    background(#CBCBCB);
+    helpcount = 0; 
+  }
+  else if ((mx > 0  && my > 450) && (mx < 50 & my < 500) && Screencount.equals("select") && helpcount == 3 )// helpback
+  {
+    background(#CBCBCB);
     helpcount = 0; 
   }
   else  if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("stage") ) // back
@@ -124,6 +131,7 @@ void mouseReleased()
   }
     else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("tetris")  ) // back
   {
+    surface.setSize(1000,500);
     background(#CBCBCB);
     Screencount = "select";
   }

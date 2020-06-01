@@ -3,7 +3,6 @@ void TenTen()
   tenx = 10;
   teny = 80;
   fill(0);
-  textSize(20);
   text("MaxScore. ",150,30);
   text("Score. ",150, 60);
   fill(255);

@@ -53,8 +53,17 @@ void draw()
 void now_screen(){
   if (Screencount.equals("main")){
     screen.Gamemain();
-  }else if(Screencount.equals("select")){
+  }else if(Screencount.equals("select") && helpcount == 0){
     screen.Gameselection();
+  }else if(Screencount.equals("select") && helpcount == 1){
+    screen.Gameselection();
+    rect(350,100,300,300);
+  }else if(Screencount.equals("select") && helpcount == 2){
+    screen.Gameselection();
+    rect(350,100,300,300);
+  }else if(Screencount.equals("select") && helpcount == 3){
+    screen.Gameselection();
+    rect(350,100,300,300);
   }else if(Screencount.equals("stage")){
     stage.Mstage();
   }else if(Screencount.equals("stage1")){
