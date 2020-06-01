@@ -13,7 +13,7 @@ PImage ihelp;
 PFont basic;
 PFont mainText;  
 
-String Screencount = "";
+String Screencount = "main";
 int snum;
 int snumX;
 int stx;
@@ -43,12 +43,11 @@ void settings(){
 
 void setup()
 {
-  screen.Gamemain();
 }
 void draw()
 {
   now_screen();
-  //change_cursor();
+  change_cursor();
 }
 
 void now_screen(){
