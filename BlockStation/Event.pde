@@ -36,9 +36,7 @@ void mouseReleased()
   }
   else if ((mx > 400  && my > 70) && (mx < 600 & my < 420) && Screencount.equals("select") && helpcount == 0 ) //Gameselection 
   {
-
     //surface.setSize(500,605);
-
     background(#CBCBCB);
     Screencount = "tetris";
 
@@ -48,7 +46,7 @@ void mouseReleased()
 
     
     background(#CBCBCB);
-    Screencount = "stage";
+    Screencount = "tentris";
   }
   
   else if ((mx > 50 && my > 70) && (mx < 250 & my < 420) && Screencount.equals("select") && helpcount == 0) // Gameselection
