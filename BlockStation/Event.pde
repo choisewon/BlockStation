@@ -37,11 +37,12 @@ void mouseReleased()
   else if ((mx > 400  && my > 70) && (mx < 600 & my < 420) && Screencount ==1 && helpcount == 0 ) //Gameselection 
   {
 
-    surface.setSize(500,605);
+    //surface.setSize(500,605);
+
     background(#CBCBCB);
-    
+    Screencount = 6;
     tet();
-    Screencount = 2;
+
   }
   else if ((mx > 770  && my > 70) && (mx < 970 & my < 420) && Screencount ==1 && helpcount == 0 ) //Gameselection 
   {

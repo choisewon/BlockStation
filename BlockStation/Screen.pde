@@ -24,7 +24,9 @@ class Screen
   
     fill(#000000);
     text("Exit!!",470, 380);
-  
+    
+    //float a = random(0,bs.get_te().length);
+    
   }
     void Gameselection()
   {

@@ -13,8 +13,7 @@ PImage ihelp;
 PFont basic;
 PFont mainText;  
 
-
-int Screencount = 0;
+String Screencount = "";
 int snum;
 int snumX;
 int stx;
@@ -36,19 +35,43 @@ boolean stagecount5 = true;
 boolean StartmouseXY = false;
 boolean ExitmouseXY = false;
 
-void settings()
-{
-  size(sizeX,sizeY);  
-}
+Block_Storage bs = new Block_Storage();
 
+void settings(){
+  size(sizeX,sizeY);
+}
 
 void setup()
 {
   screen.Gamemain();
-  
 }
 void draw()
 {
-  change_cursor();
+  now_screen();
+  //change_cursor();
+}
 
+void now_screen(){
+  if (Screencount.equals("main")){
+    screen.Gamemain();
+  }else if(Screencount.equals("select")){
+    screen.Gameselection();
+  }else if(Screencount.equals("stage")){
+    stage.Mstage();
+  }else if(Screencount.equals("stage1")){
+    stage.Chapter1();
+  }else if(Screencount.equals("stage1")){
+    stage.Chapter2();
+  }else if(Screencount.equals("stage1")){
+    stage.Chapter3();
+  }else if(Screencount.equals("stage1")){
+    stage.Chapter4();
+  }else if(Screencount.equals("stage1")){
+    stage.Chapter5();
+  }else if(Screencount.equals("tentris")){
+    TenTen();
+  }else if(Screencount.equals("tetris")){
+    tet();
+  }
+  
 }
