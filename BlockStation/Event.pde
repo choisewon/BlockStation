@@ -40,7 +40,7 @@ void mouseReleased()
   }
   else if ((mx > 770  && my > 70) && (mx < 970 & my < 420) && Screencount.equals("select") && helpcount == 0 ) //Gameselection 
   {
-    surface.setSize(580,440);
+    surface.setSize(580,430);
     background(#CBCBCB);
     Screencount = "tentris";
   }
@@ -129,14 +129,15 @@ void mouseReleased()
     background(#CBCBCB);
     Screencount = "stage";
   }
-    else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("tetris")  ) // back
+    else if ((mx > 0 && my > 555) && (mx < 50 & my < 605) && Screencount.equals("tetris")  ) // back
   {
     surface.setSize(1000,500);
     background(#CBCBCB);
     Screencount = "select";
   }
-    else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && Screencount.equals("tentris")  ) // back
+    else if ((mx > 0 && my > 380) && (mx < 50 & my < 430) && Screencount.equals("tentris")  ) // back
   {
+    surface.setSize(1000,500);
     background(#CBCBCB);
     Screencount = "select";
   }  

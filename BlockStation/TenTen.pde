@@ -2,6 +2,7 @@ void TenTen()
 {
   tenx = 10;
   teny = 80;
+  image(iback, 0, 380, 50, 50);
   fill(0);
   text("MaxScore. ",150,30);
   text("Score. ",150, 60);

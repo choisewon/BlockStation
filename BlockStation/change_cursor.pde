@@ -29,6 +29,14 @@ void change_cursor(){
     {
       cursor(HAND);
     }
+        else if ((mx > 0 && my > 555) && (mx < 50 & my < 605) && Screencount.equals("tetris")  ) // back
+    {
+      cursor(HAND);
+    }
+      else if ((mx > 0 && my > 380) && (mx < 50 & my < 430) && Screencount.equals("tentris")  ) // back
+    {
+        cursor(HAND);
+    }  
 
     
     else if ((mx > 150 && my > 200) && (mx < 250 & my < 300) && Screencount.equals("stage")  && stagecount1 == true) //1
