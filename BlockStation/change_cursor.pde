@@ -25,7 +25,7 @@ void change_cursor(){
     {
       cursor(HAND);
     }
-    else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && !(Screencount.equals("main")))
+    else if ((mx > 0 && my > 450) && (mx < 50 & my < 500) && !(Screencount.equals("main")) && !(Screencount.equals("tetris")) && !(Screencount.equals("tentris")))
     {
       cursor(HAND);
     }
