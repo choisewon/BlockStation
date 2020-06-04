@@ -48,12 +48,12 @@ class Block_Storage{
      te = (Block[])append(te, new Block( q, co ));
      mo = (Block[])append(mo, new Block( q, co ));
      
-     q = new int [][] {{0,0,0,0,0},{0,0,0,0,0},{0,1,0,0,0},{0,1,1,1,0},{0,0,0,0,0}};
+     q = new int [][] {{0,0,0,0,0},{0,0,1,0,0},{0,0,1,1,1},{0,0,0,0,0},{0,0,0,0,0}};
      co = new int[] {204,255,000};
      te = (Block[])append(te, new Block( q, co ));
      mo = (Block[])append(mo, new Block( q, co ));
      
-     q = new int [][] {{0,0,0,0,0},{0,0,0,0,0},{0,0,0,1,0},{0,1,1,1,0},{0,0,0,0,0}};
+     q = new int [][] {{0,0,0,0,0},{0,0,1,0,0},{1,1,1,0,0},{0,0,0,0,0},{0,0,0,0,0}};
      co = new int[] {255,000,204};
      te = (Block[])append(te, new Block( q, co ));
      mo = (Block[])append(mo, new Block( q, co ));
@@ -72,7 +72,7 @@ class Block_Storage{
      ten = (Block[])append(ten, new Block( q, co ));
      mo = (Block[])append(mo, new Block( q, co ));
      
-     q = new int[][] {{0,0,0,0,0},{0,1,1,1,0},{0,0,0,1,0},{0,0,0,1,0},{0,0,0,0,0}};
+     q = new int[][] {{0,0,0,0,0},{0,0,0,0,0},{1,1,1,0,0},{0,0,1,0,0},{0,0,1,0,0}};
      co = new int[] {000,153,153};
      ten = (Block[])append(ten, new Block( q, co ));
      mo = (Block[])append(mo, new Block( q, co ));
@@ -83,7 +83,7 @@ class Block_Storage{
      mo = (Block[])append(mo, new Block( q, co ));
      
   
-     q = new int[][] {{0,0,0,0,0},{0,0,0,0,0},{0,1,0,1,0},{0,1,1,1,0},{0,0,0,0,0}};
+     q = new int[][] {{0,0,0,0,0},{0,1,0,1,0},{0,1,1,1,0},{0,0,0,0,0},{0,0,0,0,0}};
      co = new int[] {255,153,000};
      mo = (Block[])append(mo, new Block( q, co ));
      
