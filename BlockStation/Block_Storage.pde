@@ -159,10 +159,10 @@ class Block_Storage{
    }
    
    Block[] get_te(){
-     return this.mo;
+     return this.te;
    }
    
    Block[] get_ten(){
-     return this.mo;
+     return this.ten;
    }
  }

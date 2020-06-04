@@ -1,8 +1,8 @@
 Event  event;
 Stage stage = new Stage();
 Screen screen = new Screen();
-//TenTen tenten = new TenTen();
-//Tet tet = new Tet();
+Tentris tentris = new Tentris();
+Tetris tetris = new Tetris();
 
 PImage imo;
 PImage ite;
@@ -77,9 +77,9 @@ void now_screen(){
   }else if(Screencount.equals("stage5")){
     stage.Chapter5();
   }else if(Screencount.equals("tentris")){
-    TenTen();
+    tentris.run_tentris();
   }else if(Screencount.equals("tetris")){
-    tet();
+    tetris.run_tetris();
   }
   
 }

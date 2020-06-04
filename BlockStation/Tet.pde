@@ -1,10 +1,9 @@
-
-  void tet()
+class Tetris{
+  void run_tetris(){
+    make_ui();
+  }
+  void make_ui()
   {
-    
-  //size(500, 605);
-    //sizeX = 500;
-    //sizeY = 605;
     fill(255);
     rect(5,5,130,130,25);
     textSize(30);
@@ -23,3 +22,4 @@
     image(iback, 0, 555, 50, 50);
    
   }
+}
